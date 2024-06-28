@@ -24,7 +24,7 @@ This project is a simple student management application built with Node.js for t
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/gadagojushiva/student-management.git
+    git clone https://github.com/GadagojuShiva/fullstack_student_management_application.git
     cd student-management
     ```
 
