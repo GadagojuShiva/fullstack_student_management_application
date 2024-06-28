@@ -14,6 +14,10 @@ This project is a simple student management application built with Node.js for t
 - **Docker**: Containerization for backend and MongoDB
 - **Environment Variables**: Used .env files to manage configuration
 
+## Architecture
+
+![Architecture](./Full_Stack_Student_Management_Application_Architecure.jpg)
+
 ## Setup Instructions
 
 ### Prerequisites
