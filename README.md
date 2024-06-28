@@ -67,6 +67,14 @@ This project is a simple student management application built with Node.js for t
 5. Access the application:
     - Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
+# Here are Some Snapshots of the application
+
+![Frontend](./Screen_Capture_of_Application/1.png)
+![Frontend](./Screen_Capture_of_Application/2.png)
+![Backend](./Screen_Capture_of_Application/3.png)
+![Frontend](./Screen_Capture_of_Application/4.png)
+![Backend](./Screen_Capture_of_Application/5.png)
+
 ## Usage
 - Click on **Add a Student** to fill out the student details form and submit.
 - Click on **Search Student** to search for a student by name.
