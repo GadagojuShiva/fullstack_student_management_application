@@ -43,7 +43,7 @@ This project is a simple student management application built with Node.js for t
     - Rename `.env.sample` to `.env` in the `backend` directory.
     - Configure your MongoDB URI in the `.env` file:
     ```env
-    MONGO_URI=mongodb://mongo:27017/student_management
+    MONGO_URI=
     PORT=5000
     ```
 
