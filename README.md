@@ -70,8 +70,14 @@ This project is a simple student management application built with Node.js for t
 
 5. Access the application:
     - Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+    
+6. GitHub Actions and Docker Compose-2
+    - GitHub Actions: Added GitHub Actions workflow (`build.yml`) for automated builds and pushes of Docker images to GitHub Packages.
+    - docker-compose-2.yml: Added a new Docker Compose file (`docker-compose-2.yml`) that utilizes Docker images from GitHub Packages for local deployments.
+    - To use this `docker-compose -f docker-compose-2.yml up`.
+    - **NOTE**: Before you execute make sure you configure .env file to connect to db.
 
-# Here are Some Snapshots of the application
+## Here are Some Snapshots of the application
 
 ![Frontend](./Screen_Capture_of_Application/1.png)
 ![Frontend](./Screen_Capture_of_Application/2.png)
@@ -82,7 +88,3 @@ This project is a simple student management application built with Node.js for t
 ## Usage
 - Click on **Add a Student** to fill out the student details form and submit.
 - Click on **Search Student** to search for a student by name.
-
-## Contributing
-Contributions are welcome! Feel free to open issues and pull requests.
-
