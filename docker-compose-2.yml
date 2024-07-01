@@ -1,0 +1,20 @@
+version: '3'
+services:
+  backend:
+    image: ghcr.io/gadagojushiva/fullstack_student_management_application/backend:latest
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - mongo
+  frontend:
+    image: ghcr.io/gadagojushiva/fullstack_student_management_application/frontend:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
