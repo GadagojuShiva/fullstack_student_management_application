@@ -21,8 +21,11 @@ This project is a simple student management application built with Node.js for t
 ## Setup Instructions
 
 ### Prerequisites
-- Node.js installed locally
-- Docker installed locally (optional, for running MongoDB in a container)
+- Node.js installed locally: You can download and install [Node.js](https://nodejs.org/en) from nodejs.org. Ensure you install the LTS (Long Term Support) version unless you have specific reasons for choosing otherwise.
+- Docker installed locally (optional, for running MongoDB in a container): Docker installation guides are available for various operating systems:
+- Docker Desktop for Mac: [Here](https://docs.docker.com/desktop/install/mac-install/)
+- Docker Desktop for Windows:[Here](https://docs.docker.com/desktop/install/windows-install/) 
+- Docker Engine for Linux: [Here](https://docs.docker.com/desktop/install/linux-install/)
 
 ### Getting Started
 
