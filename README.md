@@ -1,6 +1,6 @@
 # Student Management Application
 
-This project is a simple student management application built with Node.js for the backend and React.js for the frontend. It allows users to add student details to a MongoDB database and search for students by name.
+Student management application leveraging Node.js for the backend and React.js for the frontend. It enables users to add and search for student records stored in MongoDB. GitHub Actions automates build processes, facilitating seamless deployment. The docker-compose.yml file is configured for local development using Docker, while docker-compose-2.yml utilizes GitHub Packages for efficient image management, enabling direct local deployment.
 
 ## Features
 - **Add a Student**: Enter details such as name, age, date of birth (DOB), branch, email, and phone number to add a student to the database.
