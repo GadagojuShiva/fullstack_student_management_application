@@ -47,14 +47,14 @@ This project is a simple student management application built with Node.js for t
     ```
 
 3. Set up environment variables:
-    - Rename `.env.sample` to `.env` in the `backend` directory.
-    - Configure your MongoDB URI in the `.env` file:
+   - Rename `.env.sample` to `.env` in the `backend` directory.
+   - Configure your MongoDB URI in the `.env` file:
     ```env
     MONGO_URI=
     PORT=5000
     ```
 
-4. Run the application:
+5. Run the application:
 
     **Option 1: Using Docker (recommended for MongoDB):**
     ```bash
@@ -71,10 +71,10 @@ This project is a simple student management application built with Node.js for t
     npm start
     ```
 
-5. Access the application:
+6. Access the application:
     - Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
     
-6. GitHub Actions and Docker Compose-2
+7. GitHub Actions and Docker Compose-2
     - GitHub Actions: Added GitHub Actions workflow (`build.yml`) for automated builds and pushes of Docker images to GitHub Packages.
     - docker-compose-2.yml: Added a new Docker Compose file (`docker-compose-2.yml`) that utilizes Docker images from GitHub Packages for local deployments.
     - To use this `docker-compose -f docker-compose-2.yml up`.
